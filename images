@@ -1,0 +1,72 @@
+// document.addEventListener("DOMContentLoaded", function () {
+    //     let products = document.querySelector(".products-center");
+    //     async function fetchproducts(url) {
+    //       let data = await fetch(url);
+    //       let response = await data.json();
+    //       console.log(response);
+    //       for (let i = 0; i < response.length; i++) {
+    //         let id = response[i].id;
+    //         products.innerHTML += `<article class="product">
+    //           <div class="img-container">
+    //             <img src=${response[i].images[1]} alt="prod-1" class="product-img" />
+    //             <button class="bag-btn" data-id=${response[i].id}>
+    //               <i class="fas fa-shopping-cart"></i>add to bag
+    //             </button>
+    //           </div>
+    //           <h3>${response[i].title}</h3>
+    //           <h4>${response[i].price}</h4>
+    //         </article>`;
+    //         let cart = [];
+    //         let buttonsDOM=[]
+      
+      
+      
+            
+    //   //       //buttons
+    //   //       let buttons = [...document.querySelectorAll(".bag-btn")];
+    //   //       let cartitems=document.querySelector(".cart-items")
+    //   //       buttonsDOM=buttons;
+    //   //       buttons.forEach((button) => {
+    //   //         let id = button.dataset.id;
+    //   //         let incart = cart.find((item) => item.id === id);
+    //   //         if (incart) {
+    //   //           button.innerText = "In cart";
+    //   //           button.disabled = true;
+    //   //         } 
+    //   //           button.addEventListener("click", (event) => {
+    //   //             event.target.innerText = "in cart";
+    //   //             event.target.disabled = true;
+    //   //             console.log(event)
+    //   // // let cartitem={...storage.getproduct(id),amount:1}
+    //   // // cart=[...cart, ...cartitem]
+    //   // // console.log(cartitem);
+      
+    //   // // storage.savecart(cart)
+    //   //           });
+    //   //         }
+    //   //       );
+      
+      
+    //   //putting prd in cart
+    //   class storage{
+    //     static saveprod(response){    
+    //     localStorage.setItem('response', JSON.stringify(response));  
+    //       }
+    //     //   static getproduct(id){
+    //     //     let response=JSON.parse(localStorage.getItem("response"));
+    //     //     return response.find(product => product.id === id);
+    //     //   }
+      
+        
+    //     // static savecart(cart){    
+        
+    //     //   localStorage.setItem('cart', JSON.stringify(cart));  
+      
+    //     // }
+    //   }}}
+    //     fetchproducts("https://api.escuelajs.co/api/v1/products");
+    //   });
+
+
+// 
+
